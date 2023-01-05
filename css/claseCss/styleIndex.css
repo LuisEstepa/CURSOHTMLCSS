@@ -1,4 +1,24 @@
-.imagenplatano{
-    width: 40px; /* Ancho */
-    height:80px; /* Alto */
+div{
+    width: 500px;
+
+}
+
+img{
+    width: 300px; /* Ancho */
+    height:200px; /* Alto */
+}
+
+#img1{
+    width: 250px; /* Ancho */
+    height:150px; /* Alto */
+}
+
+.img2{
+    width: 250px; /* Ancho */
+    height:150px; /* Alto */
+}
+figcaption{
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+    
 }
