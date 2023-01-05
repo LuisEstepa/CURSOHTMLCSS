@@ -13,13 +13,13 @@
     border-radius: 2px;
     text-decoration: none;
 }
-.main-nav__item a:hover{
+.main-nav__item a:hover{ /* pseudo clase*/
     color: blue;
 } 
 .main-nav__item a:active{
     background-color: aquamarine;
     color: black;
 }
-.main-nav__item a::after{
+.main-nav__item a::after{ /* pseudo elemento*/
     content: " | ";
 }
