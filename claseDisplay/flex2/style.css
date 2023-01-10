@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    align-items: center; /*alinea el contenedor al centro */
+    /*align-items: flex-end; /*alinea el contenedor al final */
+    /*align-items: flex-star; /*alinea el contenedor arriba */
+    /*align-items: stretsh; /*alinea el contenedor al tamaño del contenedor padre */
+    /*align-items: baseline; /*alinea el contenedor al tamaño del contenido */
+    height: 50vh;   
+}
+.box{
+   width: 10rem;
+   height: 10rem; 
+}
+.box1{
+    background-color: blue;
+    order: 1; /*asignar un orden a los contenedores hijos*/
+}
+.box2{
+    background-color: aqua;
+}
+.box3{
+    background-color: blueviolet;
+}
+.box4{
+    background-color: cornflowerblue;
+}
+.box5{
+    background-color: chocolate;
+}
+.box6{
+    background-color: darkcyan;
+    /*flex-grow: 1;/*se extiende al espacio sobrente de la pantalla o el contenedor*/
+}

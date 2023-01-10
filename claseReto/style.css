@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    height: 0;
+}
+html {
+    font-size: 62.5%;
+    }
+.caja-big{
+    display: inline-block;
+    margin-top: 20rem;
+    background-color:#dacece7e;
+    width: 40rem;
+    height: 20rem;
+    border: 2px solid #dacece7e;
+    border-radius: 12px;
+    padding: 5px;
+    
+
+}
+.caja-big p{
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 18rem;
+    text-align: justify;
+    min-height: auto;
+    max-height: min-content;
+    
+}
+.caja-small {
+    position: relative;
+    bottom: 4rem;
+    background-color:red;
+    width: 20rem;
+    height: 6rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+}
