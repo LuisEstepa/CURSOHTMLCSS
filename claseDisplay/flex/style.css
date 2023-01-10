@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    /*flex-direction:column;/*cambiar de filas a columnas*/
+    flex-wrap: wrap;/* baja las cajas a otra linea de acuerdo al tamaño de pantalla sin scrol*/
+    justify-content: space-evenly; /* espacion entre contenedores igual*/
+
+    /* flex-direction: column ; */
+}
+.box{
+   width: 10rem;
+   height: 10rem; 
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: aqua;
+}
+.box3{
+    background-color: blueviolet;
+}
+.box4{
+    background-color: cornflowerblue;
+}
+.box5{
+    background-color: chocolate;
+}
+.box6{
+    background-color: darkcyan;
+}
